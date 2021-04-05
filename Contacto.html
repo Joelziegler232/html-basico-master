@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Trabajo Practico html Contacto</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="Inicio.html">Gustavo<span class="logo_colour">Doe</span></a></h1>
+          <h2>Contacto</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+         
+        
+          
+          <li><a href="Inicio.html">Inicio</a></li>
+          <li><a href="CV.html">CV</a></li>
+          <li><a href="Biografia.html">Biografia</a></li>
+          <li class="selected"><a href="Contacto.html">Contacto</a></li>
+</ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+
+        <!--Lateral Derecho -->   
+        
+        <ul>
+          <li> <a href="file:///C:/Users/Joel/Desktop/Trabajo%203%20de%20%20programacion/Inicio.html">Inicio</a></li>
+          <li><a href="file:///C:/Users/Joel/Desktop/Trabajo%203%20de%20%20programacion/CV.html">CV</a></li>
+          <li><a href="file:///C:/Users/Joel/Desktop/Trabajo%203%20de%20%20programacion/Biografia.html">Biografia</a></li>
+          <li><a href="file:///C:/Users/Joel/Desktop/Trabajo%203%20de%20%20programacion/Contacto.html">Contacto</a></li>
+        </ul>
+       
+      </div>
+      <div id="content">
+        <!-- Contenido de la pagina -->
+
+        <h1>Contactame</h1>
+        <p>Complete con sus datos los siguientes campos :</p>
+        <form action="#" method="post">
+          <div class="form_settings">
+            <p><span>Nombre</span><input class="contacto" type="text" name="your_nombre" value=""required /></p>
+            <p><span>Apellido</span><input class="contacto" type="text" name="your_apellido" value="" required/></p>
+	    <p><span>Telefono</span><input class="contact" type="text" name="your_telefono" value=""required /></p>
+	    <span>Pais</span>
+	    <select name="ad" onchange="crearlink(this.form)">
+	    <option selected> ---</option>
+	    <option value="1.htm">Argentina</option>
+	    <option value="2.htm">Brasil</option>
+	    <option value="3.htm">USA</option>
+	    <p></select></p>
+	    <p><span>Direccion Email</span><input class="contact" type="text" name="your_email" value=""required /></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Enviar" /></p>
+          </div>
+        </form>
+      </div>
+      </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; Gustavo Doe | <a href="http://uap.edu.ar/">UAP</a> | <a href="http://uap.edu.ar/carrera/ingenieria-sistemas/">Ingenieria En Sistemas</a> | <a>Trabajo Practico HTML</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
